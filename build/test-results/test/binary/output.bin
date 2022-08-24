@@ -1,0 +1,23 @@
+<html lang="en">
+	  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+
+  </head>
+	  <body>
+
+    <pre>
+PSyntaxError: Unexpected token } in JSON at position 132      <br clear="none"/>
+@    at JSON.parse (&lt;anonymous&gt;)      <br clear="none"/>
+�    at parse (C:\Users\lenovo\AppData\Roaming\npm\node_modules\json-server\node_modules\body-parser\lib\types\json.js:89:19)      <br clear="none"/>
+�    at C:\Users\lenovo\AppData\Roaming\npm\node_modules\json-server\node_modules\body-parser\lib\read.js:128:18      <br clear="none"/>
+X    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)      <br clear="none"/>
+�    at invokeCallback (C:\Users\lenovo\AppData\Roaming\npm\node_modules\json-server\node_modules\raw-body\index.js:231:16)      <br clear="none"/>
+�    at done (C:\Users\lenovo\AppData\Roaming\npm\node_modules\json-server\node_modules\raw-body\index.js:220:7)      <br clear="none"/>
+�    at IncomingMessage.onEnd (C:\Users\lenovo\AppData\Roaming\npm\node_modules\json-server\node_modules\raw-body\index.js:280:7)      <br clear="none"/>
+K    at IncomingMessage.emit (node:events:537:28)      <br clear="none"/>
+X    at endReadableNT (node:internal/streams/readable:1359:12)      <br clear="none"/>
+_    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)    </pre>
+
+  </body>
+	</html>
